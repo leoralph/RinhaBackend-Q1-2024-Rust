@@ -1,6 +1,6 @@
 use actix_web::web;
 
-use crate::controllers::transaction_controller;
+use crate::app::controllers::transaction_controller;
 
 pub fn routes(cfg: &mut web::ServiceConfig) {
     cfg.route(

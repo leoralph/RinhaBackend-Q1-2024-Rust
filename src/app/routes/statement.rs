@@ -1,6 +1,6 @@
 use actix_web::web;
 
-use crate::controllers::statement_controller;
+use crate::app::controllers::statement_controller;
 
 pub fn routes(cfg: &mut web::ServiceConfig) {
     cfg.route(

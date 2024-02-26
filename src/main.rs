@@ -1,8 +1,6 @@
-use crate::server::server;
+use crate::app::server;
 
-mod routes;
-mod server;
-mod controllers;
+mod app;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
